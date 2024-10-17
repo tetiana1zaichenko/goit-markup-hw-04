@@ -43,6 +43,9 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 
 .header-container {
@@ -98,6 +101,10 @@ img {
   position: relative;
 }
 
+.activ {
+  color: #404bbf;
+}
+
 .activ::after {
   content: "";
   width: 100%;
@@ -107,7 +114,7 @@ img {
   border-radius: 2px;
   position: absolute;
   left: 0;
-  bottom: -2px;
+  bottom: -1px;
 }
 
 .link-nav:hover,
@@ -215,14 +222,15 @@ img {
   width: calc((100% - 3 * 24px) / 4);
 }
 
-.div-dvantages-icons {
+.div-advantages-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-}
-
-.advantages-icons {
-  /* how make center */
+  margin-bottom: 8px;
 }
 
 .advantages-subtitle {
