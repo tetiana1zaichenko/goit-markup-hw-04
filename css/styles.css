@@ -256,12 +256,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* -----------------------section 3 team --------------------- */
+
 .section-team {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-
-/* -----------------------section 3 team --------------------- */
 
 .team-title {
   font-weight: 700;
@@ -339,8 +340,7 @@ img {
   background-color: #404bbf;
 }
 
-/* .team-link-icons svg { */
-svg {
+.team-link-icons svg {
   width: 16px;
   height: 16px;
 }
@@ -517,7 +517,7 @@ svg {
   background-color: #31d0aa;
 }
 
-.footer-item-items svg {
+.footer-link-items svg {
   width: 24px;
   height: 24px;
 }
